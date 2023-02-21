@@ -206,7 +206,7 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    bottom: 100%;
+    bottom: -100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -233,7 +233,7 @@ img {
 }
 .nav__link:hover{
   color:var(--first-color);
-}
+ }
 
 .nav__icon{
   font-size: 1.2rem;
@@ -519,6 +519,9 @@ img {
 
 .qualification_button:hover{
   color: var(--first-color);
+}
+.qualification__content{
+  order: 1;
 }
 
 .qualification__icon{
@@ -1186,7 +1189,7 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2,1fr);
   }
-  
+
 }
 
 /* For large devices */
