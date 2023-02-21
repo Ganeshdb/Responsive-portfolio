@@ -520,9 +520,6 @@ img {
 .qualification_button:hover{
   color: var(--first-color);
 }
-.qualification__content{
-  order: 1;
-}
 
 .qualification__icon{
   font-size: 1.8rem;
